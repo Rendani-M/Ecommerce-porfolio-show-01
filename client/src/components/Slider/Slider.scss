@@ -1,0 +1,54 @@
+.slider{
+  height: calc(110vh - 80px);
+  width: 100vw;
+  position: relative;
+  margin-bottom: 20em;
+
+  .container{
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    transition: all 1s ease;
+
+    .image{
+      width: 100%;
+      height: 140%;
+      object-fit: cover;
+      border: 4px solid black;
+    }
+  }
+
+  .icons{
+    width: fit-content;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    gap: 10px;
+    margin: auto;
+
+    .icon{
+      width: 50px;
+      height: 50px;
+      border: 1px solid #999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+}
+@media(max-width:300px){
+
+}
+
+@media(min-width:300px) and (max-width:600px){
+
+}
+
+@media(min-width:600px) and (max-width:1000px){
+  .slider{
+    
+  }
+}
